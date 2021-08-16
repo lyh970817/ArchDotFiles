@@ -1,0 +1,132 @@
+i3-gaps
+i3blocks
+i3lock
+
+# Wallpaper
+feh
+
+# Image viewer
+sxiv
+
+curl
+
+xorg
+xorg-xinit
+x-server
+
+# Font
+ttf-fira-code
+powerline-fonts
+wqy-zenhei
+wqy-bitmapfont
+
+# light control
+light
+
+# search
+fzf
+
+# ssh
+openssh
+
+# GTK setting
+lxappearance
+gnome-themes-extra
+
+# R
+r
+
+# Editor
+neovim
+python-pynvim
+
+# Screenshot
+scrot
+
+# Notification
+dunst
+
+# Font
+ttf-fira-code
+
+
+# Hotkeys
+sxhkd
+
+# Zathura
+zathura
+zathura-pdf-mupdf
+
+# Hide mouse loading
+unclutter
+
+# Transperancy
+xcompmgr
+
+# Clipboard command line
+xclip
+
+# Window manipulation in i3
+xdotool
+
+# Sound
+ 
+pavucontrol
+pavucontrol-qt
+
+# unzip
+unzip
+
+arandr
+
+# Install pip
+python-pip
+gcc-fortran
+imagemagick
+tk
+
+xprintidle
+pandoc
+pandoc-citeproc
+pandoc-crossref
+texlive-core
+nodejs
+
+chromium
+
+# In-file search
+ripgrep
+
+mpv
+qbittorrent
+
+fcitx
+fcitx-cloudpinyin
+
+# vpn
+v2ray
+
+go
+imagemagick
+ipython
+
+telegram-desktop
+
+bluez-tools
+
+# Font
+ttf-dejavu
+
+# File manager
+pcmanfm
+
+libreoffice-still
+xscreensaver
+
+# Check largest files
+ncdu
+
+jdk-openjdk
+
+# zip GUI
+xarchiver

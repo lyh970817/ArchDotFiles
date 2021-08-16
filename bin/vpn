@@ -1,0 +1,42 @@
+#!/usr/bin/env zsh
+
+ZSHENV=$HOME/.config/zsh/.zshenv
+CURLCONF=$HOME/.curlrc
+
+if grep -Fq 'export http_proxy' $ZSHENV; 
+then 
+     sed -i '/http_proxy/d' $ZSHENV 
+     sed -i '/https_proxy/d' $ZSHENV 
+     echo 'unset http_proxy' >> $ZSHENV
+     echo 'unset https_proxy' >> $ZSHENV
+
+     sed -i '/proxy/d' $CURLCONF
+     git config --global --unset http.proxy 
+     notify-send "VPN OFF"
+ else
+     sed -i '/http_proxy/d' $ZSHENV 
+     sed -i '/https_proxy/d' $ZSHENV 
+     echo 'export http_proxy=http://127.0.0.1:1081' >> $ZSHENV
+     echo 'export https_proxy=http://127.0.0.1:1081' >> $ZSHENV
+    
+     echo 'proxy = 127.0.0.1:1081' >> $CURLCONF
+     git config --global http.proxy http://127.0.0.1:1081
+     notify-send "VPN ON"
+ fi
+
+
+# ENABLE=$(gsettings get org.gnome.system.proxy.http enabled)
+# if [ $ENABLE = false ];
+# then
+#     gsettings set org.gnome.system.proxy mode 'manual'
+#     gsettings set org.gnome.system.proxy.http enabled true
+#     gsettings set org.gnome.system.proxy.http host '127.0.0.1'
+#     gsettings set org.gnome.system.proxy.https host '127.0.0.1'
+#     gsettings set org.gnome.system.proxy.http port 1081
+#     gsettings set org.gnome.system.proxy.https port 1081
+#     notify-send "VPN ON"
+# else 
+#     gsettings set org.gnome.system.proxy mode 'none'
+#     gsettings set org.gnome.system.proxy.http enabled false
+#     notify-send "VPN OFF"
+# fi

@@ -1,0 +1,151 @@
+Press q to dismiss, <Tab> to lose focus
+
+General {{{1
+New/open file or dir     :e …          N
+In-file search           :rg           N
+Start REPL               <F1>          N
+Run all above            «F5»          N
+Replace current line     S             N
+Replace all instances    <leader>S     N
+Code action              <Leader>ac    N
+Quick fix                <Leader>qf    N
+Spell check              <Leader>o     N
+Show all diagnostics      <Space>d     N
+Find symbols in document  <Space>o     N
+Find symbols in workspace <Space>s     N
+Comment out              gc            N
+Show documentation       gh            N
+Add quotes               gw            V
+Go to definition         gd            N
+Go to type definition    gy            N
+Go to references         gr            N
+Fold all open            zR            N
+Fold all close           zM            N
+Fold toggle              za            N
+Fold toggle recursive    zA           N
+Select function obj inside   if        V
+Select function obj outside  af        V
+Select class obj inside   if           V
+Select class obj outside  af           V
+To next lintr error      «C-;»         N
+To prev lintr error      «C-'»         N
+Range select             <C-s>         N
+Get completion           <Tab>         I
+Prev completion option   <S-Tab>       I
+Move to end of line      <Right>       N
+Move to start of line    <Left>        N
+}}}
+R and Rmarkdown {{{1
+Print                    gp            N
+View structure           gS            N
+View names               gs            N
+Df unique values         gU            N
+Vector unique values     gu            N
+Load project             gl            N
+Load package             gL            N
+Insert browser           gb            N
+Debug next               gn            N
+Debug quit               gq            N
+Next function            [f            N
+Previous function        ]f            N
+Delete `browser` in dir  <leader>db    N
+Run current chunk        «F4»          N
+Run current chunk(down)  «S-F5»        N
+Knit                     gk            N
+Stop                     «C-c»         N
+}}}
+Python {{{1
+Print                    gp            N
+Insert browser           gb            N
+Debug next               gn            N
+Debug quit               gq            N
+Stop                     «C-c»         N
+}}}
+Markdown  {{{1
+Citation search          @«C-x»«C-o»   I
+Citation information     «space»       N
+Table of content         «C-t»         N
+Goyo mode                <Leader>g     N
+To next misspelled word  «C-;»         N
+To prev misspelled word  «C-'»         N
+Correct current word     z=           *N
+Suggest corrections      z+           *N
+Add current word to dict zg           *N
+Delete current word      zug          *N
+}}}
+Text {{{1
+Change to uppercase      gU            O
+Change to lowercase      gu            O
+Uppercase line           gUU           N
+Lowercase line           guu           N
+Change to uppercase      U             V
+Change to lowercase      u             V
+Toggle case              ~            *N
+Toggle case              ~             V
+Indent   (. to repeat)   >             O
+Unindent (. to repeat)   <             O
+Reindent                 =             O
+Indent line (. repeats)  >>            N
+Unindent    (. repeats)  <<            N
+Reindent line            ==            N
+Indent line              «C-t»         I
+Unindent line            «C-d»         I
+Hard-wrap (cursor moves) gq            O
+Hard-wrap (cursor stays) gw            O
+Format current line      gww           N
+Ditto, preserve spaces   gJ            N
+Sort selected lines      :sort         V
+Sort+remove duplicates   :sort u       V
+Increment number         ‹n›«C-a»     *N
+Decrement number         ‹n›«C-x»     *N
+View {{{1
+Scrolling {{{2
+Scroll down half a page  «C-d»         N
+Scroll up half a page    «C-u»         N
+}}}
+Search {{{1
+Toggle search highlight  :setl hls!    N
+Toggle ignore case       :set ic!      N
+Select up to next match  gn            M
+Select up to prev match  gN            M
+Search » for this word   *            *M
+Search « for this word   #            *M
+Ditto, ask to confirm    :s/‹P›/‹P›/gc V
+Next command             «C-n»         C
+Prev command             «C-p»         C
+Browse command history   q:            N
+Browse command history   «C-f»         C
+Browse » search patterns q/            N
+Browse « search patterns q?            N
+}}}
+Go {{{1
+Movement {{{2
+Up (honor soft-wrapping) gk            M
+Down (ditto)             gj            M
+}}}
+Prev pos in change list  g;            N
+Next pos in change list  g,            N
+Go to line ‹n›           :‹n›          M
+Go to column ‹n›         ‹n›|          M
+Jump to line ‹n›         ‹n›G          M
+Jump to begin of block   [{            M
+Jump to end of block     ]}            M
+Jump to end of sentence  )             M
+Jump to beg. of sentence (             M
+Jump to end of section   ]]            M
+Jump to beg. of section  [[            M
+Jump to top of window    H             M
+Jump to middle           M             M
+Jump to bottom           L             M
+Jump to matching delim   %             M
+Set mark                 m‹c›          N
+Jump to mark             `‹c›          M
+View all marks           :marks        N
+Remove marks             :delmarks …   N
+}}}
+Help {{{1
+Help about …             :h …          N
+Help search              :helpgrep …   N
+View registers           :di           N
+List all syntax items    :syn          N
+}}}

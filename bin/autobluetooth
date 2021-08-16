@@ -1,0 +1,6 @@
+#!/bin/bash
+
+bluetoothctl power on
+bluetoothctl connect B4:52:A9:BD:B1:5B &&
+xset r rate 250 60 &
+

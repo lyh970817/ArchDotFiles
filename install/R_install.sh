@@ -1,0 +1,7 @@
+R -e 'install.packages("languageserver")'
+R -e 'install.packages("tidyverse")'
+R -e 'install.packages("kableExtra")'
+R -e 'install.packages("styler")'
+R -e 'install.packages("lintr")'
+R -e 'install.packages("devtools")'
+R -e 'install.packages("prettydoc")'

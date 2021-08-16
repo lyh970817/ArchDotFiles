@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ "$(bluetoothctl info 04:FE:A1:68:F9:E4|grep 'Connected'|cut -f2 -d:|tr -d ' ')" == "yes" ]];then
+    notify-send "$(bluetoothctl disconnect 04:FE:A1:68:F9:E4)"
+
+else
+    notify-send "$(bluetoothctl connect 04:FE:A1:68:F9:E4)"
+fi

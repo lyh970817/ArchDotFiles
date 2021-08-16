@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+ZSHENV=$HOME/.config/zsh/.zshenv
+
+
+if grep -Fq 'export http_proxy' $ZSHENV; 
+then 
+    VPN="VPN ON"
+else
+    VPN="VPN OFF"
+fi
+
+notify-send "$(date|cut -d' ' -f1-5) $VPN"

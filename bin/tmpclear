@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+TMPFILES=$(ls $HOME/.tmp/ -tl|tr -s ' '|cut -d ' ' -f 9)
+[[ $(echo $TMPFILES|wc -w) -gt 200000 ]] &&
+    rm $HOME/.tmp/$(echo $TMPFILES | tr ' ' '\n'|tail -1)
+
+
+
+
+

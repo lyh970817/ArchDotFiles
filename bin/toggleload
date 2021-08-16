@@ -1,0 +1,21 @@
+#/usr/bin/env sh
+
+FOUND=$(find . -name global.dcf)
+
+if [[ ${#FOUND} -gt 0 ]];then
+
+    { cat $FOUND|grep 'data_loading: F' >/dev/null &&
+        sed -i 's/data_loading: F/data_loading: T/' $FOUND; } ||
+        { cat $FOUND|grep 'data_loading: T' >/dev/null &&
+        sed -i 's/data_loading: T/data_loading: F/' $FOUND; }
+
+    { cat $FOUND|grep 'munging: F'>/dev/null &&
+        sed -i 's/munging: F/munging: T/' $FOUND; } ||
+        { cat $FOUND|grep 'munging: T' >/dev/null&&
+        sed -i 's/munging: T/munging: F/' $FOUND; }
+
+else
+    echo 'Not in project directory!' 1>&2
+    exit 1
+fi
+

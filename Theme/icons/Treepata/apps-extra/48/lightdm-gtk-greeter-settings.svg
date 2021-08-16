@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3304"
+   height="48px"
+   width="48px"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="lightdm-gtk-greeter-settings.svg">
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="6.9532167"
+     inkscape:cx="36.499934"
+     inkscape:cy="30.281576"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <metadata
+     id="metadata3309">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Luca Ferretti &lt;elle.uca@libero.it&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>monitor</rdf:li>
+            <rdf:li>display</rdf:li>
+            <rdf:li>video</rdf:li>
+            <rdf:li>screen</rdf:li>
+            <rdf:li>LCD</rdf:li>
+            <rdf:li>CRT</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <rect
+       id="rect5087"
+       style="fill:none"
+       height="48"
+       width="48"
+       y="0"
+       x="0" />
+    <rect
+       id="rect4784"
+       style="fill:none"
+       height="48"
+       width="48"
+       y="0"
+       x="0" />
+    <path
+       id="rect5040"
+       style="stroke-linejoin:round;fill-rule:evenodd;stroke:#fff;stroke-linecap:round;stroke-width:3.1061;fill:#fff"
+       d="m4.8886 2.6477h38.128c2.026 0 3.501 1.5304 3.501 3.8872l0.012 30.465-45.034-0.02 0.0168-30.646c0-1.9019 1.5394-3.6863 3.3758-3.6863z" />
+    <path
+       id="path6541"
+       style="stroke-linejoin:round;fill-rule:evenodd;stroke:#fff;stroke-linecap:round;stroke-width:8;fill:#fff"
+       d="m18 34s1 6-7.008 6c-2.5053 0-1.992 4.035-1.992 4.035l30-0.035s0.432-3.922-2.085-3.941c-7.915-0.059-6.915-6.059-6.915-6.059h-12z" />
+    <path
+       id="path9222"
+       style="fill-rule:evenodd"
+       d="m18 33.343s1.197 5.738-6.811 5.703c-2.5053-0.011-2.189 4.954-2.189 4.954h30.085s0.3-4.907-2.216-4.926c-8-0.059-6.869-5.665-6.869-5.665l-12-0.066z" />
+    <path
+       id="path2175"
+       style="fill-rule:evenodd"
+       d="m7.3758 5.5616l33.123-0.1877c2.025 0 3.501 1.4276 3.501 3.6261v25h-40v-25c0-1.7738 1.5394-3.4384 3.3758-3.4384z" />
+    <rect
+       style="opacity:1;fill:#c90016;fill-opacity:1;stroke:#ffffff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4145"
+       width="26.847458"
+       height="14.033898"
+       x="10.576071"
+       y="12.65952"
+       ry="0" />
+  </g>
+</svg>

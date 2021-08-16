@@ -1,0 +1,29 @@
+{
+  "suggest.noselect": false,
+  "python.jediEnabled": true, 
+  "diagnostic.virtualText":true,
+  "coc.preferences.hoverTarget" : "preview", 
+  "python.autoComplete.addBrackets": true,
+  "languageserver": {
+  "haskell": {
+    "command": "hie-wrapper",
+    "args": ["--lsp"],
+    "rootPatterns": [
+      "stack.yaml",
+      "cabal.config",
+      "package.yaml"
+    ],
+    "filetypes": [
+      "hs",
+      "lhs",
+      "haskell"
+    ],
+    "initializationOptions": {
+      "languageServerHaskell": {
+        "hlintOn": false
+      }
+    }
+  }
+}
+}
+

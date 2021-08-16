@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3304"
+   height="22"
+   width="22"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="remmina-panel.svg">
+  <defs
+     id="defs14">
+    <linearGradient
+       id="linearGradient3678">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3680" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="1"
+         id="stop3682" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3678"
+       id="linearGradient4175"
+       x1="13.800005"
+       y1="6.1092925"
+       x2="13.800005"
+       y2="19.73641"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3678"
+       id="linearGradient4183"
+       x1="14.766108"
+       y1="6.1601396"
+       x2="14.766108"
+       y2="19.685564"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="19.666667"
+     inkscape:cx="1.1222904"
+     inkscape:cy="12.959642"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <metadata
+     id="metadata3309">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Luca Ferretti &lt;elle.uca@libero.it&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>computer</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:date>June 2009</dc:date>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/SourceCode" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0,-26)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 9.3997302,46.095396 9.6925158,0 c 0,0 -0.639706,-3.553922 -4.846258,-3.553922 -4.206552,0 -4.8462578,3.553922 -4.8462578,3.553922 z"
+       style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.29233539;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="path4141" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 9.0766472,33.81821 10.3386828,0 c 0.654244,0 1.292335,0.582035 1.292335,1.292335 l 0,7.107845 -12.9233538,0 0,-7.107845 c 0,-0.573086 0.699024,-1.292335 1.292336,-1.292335 z"
+       style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-opacity:1"
+       id="path4143" />
+    <rect
+       id="rect5087"
+       style="fill:none"
+       height="15.508024"
+       width="15.508024"
+       y="31.491976"
+       x="6.4919758" />
+    <rect
+       id="rect4784"
+       style="fill:none"
+       height="15.508024"
+       width="15.508024"
+       y="31.491976"
+       x="6.4919758" />
+    <path
+       style="fill:url(#linearGradient4175);fill-opacity:1;stroke:url(#linearGradient4183);stroke-width:1.29233539;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="M 9.0761719 6.7851562 C 8.4828599 6.7851562 7.7851562 7.5030859 7.7851562 8.0761719 L 7.7851562 15.183594 L 20.707031 15.183594 L 20.707031 8.0761719 C 20.707031 7.3658719 20.07026 6.7851562 19.416016 6.7851562 L 9.0761719 6.7851562 z M 14.246094 15.507812 C 10.039542 15.507812 9.4003906 19.060547 9.4003906 19.060547 L 19.091797 19.060547 C 19.091797 19.060547 18.452646 15.507812 14.246094 15.507812 z "
+       id="path3217"
+       transform="translate(0,26)" />
+    <g
+       id="g3803"
+       transform="matrix(0.49730941,0.11644605,-0.14295753,0.47079793,-12.527112,24.259249)"
+       style="stroke:#e6e6e6;stroke-opacity:1">
+      <path
+         d="m 39.998219,4.8112512 a 14,14 0 0 0 -0.1,12.6879998"
+         style="fill:none;stroke:#e6e6e6;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path3163"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 35.004219,-0.81124881 A 19,19 0 0 0 34.82822,22.113751"
+         style="fill:#ffffff;stroke:#e6e6e6;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path3167"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       id="rect4355"
+       style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd"
+       height="5.8155093"
+       width="10.338683"
+       y="34.076645"
+       x="9.0766449" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+
+# Symbols in terminal
+libxft-bgra
+
+# Bluetooth keyboard
+# obinskit
+
+gtk-theme-numix-solarized
+
+# Yandex-Disk
+yandex-disk
+
+# lf
+lf
+
+# dmenu
+dmenu2
+
+# Zoterao
+zotero
+bibtool
+
+zoom
+
+pstoedit-nomagick
+autotrace-nomagick
+flif
+libfpx
+libumem-git
+brunsli
+
+brave-nightly-bin
+
+mimeo
+vidir
+onedrive-abraunegg
+
+nodejs-live-server
+
+electron4-bin
+dingtalk-electron
+
+# Qt use GTK theme
+qt5-styleplugins
+
+pulseaudio-ctl
+freedownloadmanager
+baidunetdisk
+
+
+pkgsync
+
+# For normal shutdown
+watchdog

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="48"
+   height="48"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="notification-power-disconnected.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="7.7995451"
+     inkscape:cy="25.437369"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs13" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:date>2008-12-15</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Vinicius Depizzol &lt;vdepizzol@gmail.com&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>battery</rdf:li>
+            <rdf:li>Low</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:coverage>less then 20%</dc:coverage>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Luca Ferretti &lt;elle.uca@libero.it&gt;</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>A quite empty battery</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 5.7324853,21.586206 7.6413127,0 C 14.328962,17.724138 15.284126,10.965517 21.970275,10 l 9.551643,0 0,4.827586 8.596478,0 c 2.865492,0 2.865492,4.827586 0,4.827586 l -8.596478,0 0,8.689655 8.596478,0 c 2.865492,0 2.865492,4.827586 0,4.827586 l -8.596478,0 0,4.827587 -9.551643,0 C 15.284126,37.034482 14.328962,31.241379 13.373798,27.37931 l -7.6413127,0 0,-5.793104 z"
+       id="path3763"
+       style="fill-rule:evenodd;stroke:#ffffff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="g3755"
+       transform="matrix(0.95516418,0,0,0.96551724,-0.95366375,1.3103448)">
+      <path
+         style="fill-rule:evenodd"
+         id="path2182"
+         d="m 7,21 8,0 c 1,-4 2,-11 9,-12 l 10,0 0,5 9,0 c 3,0 3,5 0,5 l -9,0 0,9 9,0 c 3,0 3,5 0,5 l -9,0 0,5 -10,0 C 17,37 16,31 15,27 l -8,0 0,-6 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       width="48"
+       height="48"
+       rx="0"
+       ry="0"
+       x="0"
+       y="0"
+       id="rect2387"
+       style="fill:none" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4155"
+       d="M 32.000251,25.131457 23.000001,41 41.000502,41 32.000251,25.131457 Z" />
+    <path
+       d="M 32.000251,25.131457 23.000001,41 41.000502,41 32.000251,25.131457 Z"
+       id="path9"
+       style="fill:none;stroke:#d30000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 32.000251,25.660408 -8.470823,14.81064 16.941647,0 -8.470824,-14.81064 z"
+       id="path11"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 30.941397,36.197834 -0.529426,-5.818464 3.176559,0 -0.529426,5.818464 -2.117707,0 z"
+       id="path15"
+       style="fill:#d30000;fill-opacity:1;stroke:none"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 33.555442,38.346714 a 1.571735,1.5951194 0 0 1 -3.14347,0 1.571735,1.5951194 0 1 1 3.14347,0 z"
+       id="path6965"
+       style="fill:#d30000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.99999994;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

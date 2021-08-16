@@ -1,0 +1,29 @@
+---
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    pandoc_args: ['-F', 'zotref', '-F', 'pandoc-citeproc']
+title: Untitled
+subtitle: Untitled
+author: Yuhao Lin 
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA,
+  prompt = FALSE,
+  cache = FALSE
+)
+```
+
+```{r clear global environment, include = FALSE}
+remove(list = ls())
+```
+
+```{r loading packages, include = FALSE}
+library(tidyverse)
+```
+

@@ -1,0 +1,89 @@
+# Luke's lf settings
+
+# Basic vars
+set shell sh
+set previewer ~/.config/lf/preview.sh
+set shellopts '-eu'
+set ifs "\n"
+set scrolloff 10
+set ratios '5:5'
+set drawbox on
+
+# cmds/functions
+cmd open ${{
+    case $(file --mime-type $f -b) in
+    	text/troff) man ./ $f;;
+        text/*) $EDITOR $fx;;
+	# image/x-xcf|image/svg+xml) setsid gimp $f >/dev/null 2>&1 & ;;
+	image/*) rotdir $f | setsid sxiv -aio 2>/dev/null | lf-select & ;;
+	audio/*) mpv --input-ipc-server=/tmp/mpvsoc$(date +%%s) $f ;;
+	video/*) setsid mpv --input-ipc-server=/tmp/mpvsoc$(date +%%s) $f -quiet >/dev/null 2>&1 & ;;
+	application/pdf) setsid zathura $fx >/dev/null 2>&1 & ;;
+        *) for f in $fx; do setsid $OPENER $f >/dev/null 2>&1 & done;;
+    esac
+}}
+
+cmd extract ${{
+    set -f
+    case $f in
+        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2) tar xjvf $f;;
+        *.tar.gz|*.tgz) tar xzvf $f;;
+        *.tar.xz|*.txz) tar xJvf $f;;
+        *.zip) unzip $f;;
+        *.rar) unrar x $f;;
+        *.7z) 7z x $f;;
+    esac
+}}
+#
+# compress current file or selected files with tar and gunzip
+cmd tar ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    tar czf $1.tar.gz $1
+    rm -rf $1
+}}
+
+# compress current file or selected files with zip
+cmd zip ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    zip -r $1.zip $1
+    rm -rf $1
+}}
+
+cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
+
+cmd delete ${{
+	set -f
+	printf "%s\n\t" "$fx"
+	printf "delete?[y/N]"
+	read ans
+	[ $ans = "y" ] && rm -rf $fx
+}}
+
+cmd bulkrename ${{
+    vidir
+}}
+
+# cmd open $xdg-open $f
+#
+# Bindings
+map c $lf -remote "send $id cd $(cut -d'	' -f2 ~/.config/directories | fzf)"
+map <c-f> $lf -remote "send $id select '$(fzf)'"
+map J $lf -remote "send $id cd $(cut -d'	' -f2 ~/.config/directories | fzf)"
+map gh
+map g top
+map D delete
+map a push %mkdir<space>
+map r push :rename<space>
+map R $lf -remote "send $id push :rename<space>$f"
+map b bulkrename
+map <c-r> reload
+map <enter> shell
+map x $$f
+map X !$f
+map O $mimeopen --ask $f
+map Z quit
+map e extract

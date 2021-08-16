@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+if [[ $(iseink) -eq 1 ]]; then
+	feh --bg-max ~/.config/wall.png --image-bg white &
+else
+	feh --bg-max ~/.config/wall2.png --image-bg "#eee8d5" &
+fi
+

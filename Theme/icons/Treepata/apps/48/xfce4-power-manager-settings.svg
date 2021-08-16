@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2383"
+   height="48px"
+   width="48px"
+   version="1.1"
+   sodipodi:docname="xfce4-power-manager-settings.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="18.414326"
+     inkscape:cy="37.118769"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2383" />
+  <metadata
+     id="metadata2388">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:date>December 2008</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Luca Ferretti &lt;elle.uca@libero.it&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>weather</rdf:li>
+            <rdf:li>storm</rdf:li>
+            <rdf:li>thunder</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>A thunder</dc:description>
+        <cc:license
+           rdf:resource="" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     id="path3715"
+     cx="24"
+     cy="24"
+     style="stroke:#ffffff;stroke-width:4.36363649;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+     r="21.818182" />
+  <g
+     id="layer1"
+     transform="translate(-72,-1.4237288)"
+     style="fill:#19b6ee;fill-opacity:1">
+    <path
+       id="path2386"
+       style="fill:#19b6ee;fill-rule:evenodd;stroke:none;stroke-width:2.87005639;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+       d="m 91.694918,12.508474 h 10.762712 l -4.305085,8.61017 H 108.91525 L 89.542374,38.338983 93.129946,26.141243 H 83.084747 Z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

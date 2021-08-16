@@ -1,0 +1,48 @@
+
+alias h="cd ~/ && ls -a" \
+d="cd ~/Documents && ls -a" \
+D="cd ~/Downloads && ls -a" \
+pp="cd ~/Pictures && ls -a" \
+cf="cd ~/.config && ls -a" \
+sc="cd ~/.local/bin && ls -a" \
+mn="cd /mnt && ls -a" \
+bf="$EDITOR ~/.config/files" \
+bd="$EDITOR ~/.config/directories" \
+bw="$EDITOR ~/.config/bookmarks" \
+cfa="$EDITOR ~/.config/aliasrc" \
+cfz="$EDITOR $ZDOTDIR/.zshrc" \
+cfv="$EDITOR ~/.config/nvim/init.vim" \
+cfd="$EDITOR ~/.Xdefaults" \
+cfk="$EDITOR ~/.config/sxhkd/sxhkdrc" \
+cfi="$EDITOR ~/.config/i3/config" \
+tmpr="$EDITOR /tmp/tmp.r" \
+
+function usbfind {
+    lsblk
+}
+
+function usbmount {
+    udisksctl mount -b /dev/$1
+}
+
+function usbunmount {
+    udisksctl unmount -b /dev/$1
+}
+
+function G {
+    cd ~/Yandex.Disk/Projects/Research/TNG/GLAD/
+    \lf -last-dir-path /tmp/.lfdir
+    LASTDIR=`cat /tmp/.lfdir`
+    cd "$LASTDIR"
+}
+
+function L {
+    cd ~/Yandex.Disk/Library/
+    \lf -last-dir-path /tmp/.lfdir; LASTDIR=`cat /tmp/.lfdir`; cd "$LASTDIR"
+}
+
+function D {
+    cd ~/Data
+    \lf -last-dir-path /tmp/.lfdir; LASTDIR=`cat /tmp/.lfdir`; cd "$LASTDIR"
+}
+

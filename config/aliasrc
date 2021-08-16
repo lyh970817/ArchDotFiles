@@ -1,0 +1,23 @@
+alias nvimrc='nvim ~/.config/nvim/init.vim'
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv" \
+	c="cd" \
+	c.="cd .." \
+
+alias \
+	g="git" \
+	sdn="sudo shutdown -h now" \
+	sr="sudo reboot -h now" \
+	f="$FILE" \
+	e="echo" \
+	p="pamac" \
+	pa="sudo pacman" \
+	ya="yaourt" \
+    r="R" \
+
+

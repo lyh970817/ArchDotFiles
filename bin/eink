@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+# output can be automatically determined
+xrandr --output DP1 --primary --mode 2200x1650 --pos 0x0 --rotate normal
+xrandr  --output DP1 --scale 0.46
+ln -sf $ARSETUP/dotfiles/Xdefaults ~/.Xdefaults
+
+sed -i 's/colorscheme solarized8_flat/colorscheme bow-wob/' ~/.config/nvim/init.vim
+sed -i 's/highlight EndOfBuffer ctermfg=black/highlight EndOfBuffer ctermfg=white/' ~/.config/nvim/init.vim
+
+sed -i 's/gaps inner 20/gaps inner 13/' ~/.config/i3/config
+sed -i 's/gaps outer 20/gaps outer 8/' ~/.config/i3/config
+
+sed -i 's/NumixSolarizedLightCyan/Raleigh/' ~/.config/gtk-3.0/settings.ini
+sed -i 's/NumixSolarizedLightCyan/Raleigh/' ~/.config/gtk-2.0/gtkrc-2.0
+
+sed -i 's/gtk-icon-theme-name=Adwaita/gtk-icon-theme-name=HighContrast/' ~/.config/gtk-3.0/settings.ini
+sed -i 's/gtk-icon-theme-name="Adwaita"/gtk-icon-theme-name="HighContrast"/' ~/.config/gtk-2.0/gtkrc-2.0
+
+xscreensaver -no-splash &
+setbg
+pgrep -x dunst >/dev/null && killall dunst && setsid dunst &
+xrdb ~/.Xresources
+i3-msg restart &

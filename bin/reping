@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+# Use sudo in a script
+sudo v2gen -u https://1.mxxst2.de/link/IXkdaCmjaXsAz6RG?sub=3&extend=1 --best
+sudo systemctl kill --now v2ray
+sudo systemctl enable --now v2ray

@@ -1,0 +1,38 @@
+super + shift + q
+	kill -9 `xdotool getwindowfocus getwindowpid`
+super + d
+	dmenu_run -i -fn 'Fira Code:pixelsize=20'
+super + r
+	$TERMINAL -e $FILE
+ctrl +  1
+	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).md
+ctrl +  2
+	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).r
+ctrl +  3
+	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).py
+ctrl +  4
+	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).hs
+super + w
+	brave-nightly
+super + z
+	zotero
+super + v
+	vpn
+super + Insert
+	showclip
+super + F10
+	arandr
+super + shift + ctrl + e
+	eink
+super + shift + ctrl + l
+	laptop
+super + shift + ctrl + p
+	projector
+super + Print
+	dmenurecord
+super + Delete
+	dmenurecord kill
+super + F3
+	displayselect
+super + {F9,F10}
+	{dmenumount,dmenuumount}
