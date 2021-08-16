@@ -41,4 +41,5 @@ else
 fi
 
 xset r rate 220 60
+xset s noblank
 exec i3
