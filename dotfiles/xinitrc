@@ -35,9 +35,9 @@ gitwatch $ARSETUP &
 # onedrive --syncdir ~/OneDrive --monitor &
  
 if [[ $(iseink) -eq 1 ]];then
-    eink &
+    eink 
 else
-    laptop &
+    laptop 
 fi
 
 xset r rate 220 60
