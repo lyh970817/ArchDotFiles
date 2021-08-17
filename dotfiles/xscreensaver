@@ -1,27 +1,22 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.44 for lyh970817 on Sat Mar 13 21:42:03 2021.
+# Written by xscreensaver-settings 6.00 for lyh970817 on Mon Aug 16 23:08:43 2021.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
-cycle:		0:10:00
+cycle:		12:00:00
 lock:		False
 lockTimeout:	0:00:00
 passwdTimeout:	0:00:30
 visualID:	default
 installColormap:    True
 verbose:	False
-timestamp:	True
 splash:		True
 splashDuration:	0:00:05
 demoCommand:	xscreensaver-demo
-prefsCommand:	
 nice:		10
-memoryLimit:	0
 fade:		False
 unfade:		False
 fadeSeconds:	0:00:03
-fadeTicks:	20
-captureStderr:	True
 ignoreUninstalledPrograms:False
 font:		*-medium-r-*-140-*-m-*
 dpmsEnabled:	False
@@ -42,6 +37,7 @@ textLiteral:	XScreenSaver
 textFile:	
 textProgram:	fortune
 textURL:	https://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
+dialogTheme:	default
 
 programs:								      \
 				maze -root				    \n\
@@ -188,7 +184,8 @@ programs:								      \
   GL: 				gleidescope -root			    \n\
   GL: 				glknots -root				    \n\
   GL: 				glmatrix -root				    \n\
-- GL: 				glslideshow -root -fade 0 -zoom 200	    \n\
+- GL: 				glslideshow -root -duration 301 -zoom 101     \
+				  -pan 30 -fade 0 -no-letterbox		    \n\
   GL: 				hypertorus -root			    \n\
 - GL: 				jigglypuff -root			    \n\
 				metaballs -root				    \n\
@@ -282,15 +279,12 @@ programs:								      \
   GL: 				gravitywell -root			    \n\
   GL: 				etruscanvenus -root			    \n\
   GL: 				gibson -root				    \n\
+  GL: 				beats -root				    \n\
+  GL: 				covid19 -root				    \n\
+  GL: 				headroom -root				    \n\
+  GL: 				sphereeversion -root			    \n\
 
 
-pointerPollTime:    0:00:05
 pointerHysteresis:  10
-windowCreationTimeout:0:00:30
-initialDelay:	0:00:00
-GetViewPortIsFullOfLies:False
-procInterrupts:	True
-xinputExtensionDev: False
-overlayStderr:	True
 authWarningSlack:   20
 
