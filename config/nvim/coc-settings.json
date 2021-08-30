@@ -2,7 +2,8 @@
   "suggest.noselect": false,
   "python.jediEnabled": true, 
   "diagnostic.virtualText":true,
-disableDiagnostics;true,
+  "diagnostic.virtualText":true,
+  disableDiagnostics;true,
   "coc.preferences.hoverTarget" : "preview", 
   "python.autoComplete.addBrackets": true,
   "languageserver": {
