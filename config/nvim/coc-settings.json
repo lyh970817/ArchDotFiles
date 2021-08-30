@@ -7,7 +7,6 @@
   "python.autoComplete.addBrackets": true,
   "languageserver": {
   "R": {},
-  "disableDiagnostics":false,
   "haskell": {
     "command": "hie-wrapper",
     "args": ["--lsp"],
