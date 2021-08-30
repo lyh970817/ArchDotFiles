@@ -7,6 +7,7 @@
   "coc.preferences.hoverTarget" : "preview", 
   "python.autoComplete.addBrackets": true,
   "languageserver": {
+  "R"
   "haskell": {
     "command": "hie-wrapper",
     "args": ["--lsp"],
