@@ -3,7 +3,7 @@
   "python.jediEnabled": true, 
   "diagnostic.virtualText":true,
   "diagnostic.virtualText":true,
-  "diagnostic.displayByAle"
+  "diagnostic.displayByAle":true,
   "coc.preferences.hoverTarget" : "preview", 
   "python.autoComplete.addBrackets": true,
   "languageserver": {
