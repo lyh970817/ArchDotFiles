@@ -11,7 +11,7 @@ ctrl +  2
 ctrl +  3
 	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).py
 ctrl +  4
-	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).hs
+	tmpclear; $TERMINAL -e $EDITOR $HOME/.tmp/$(date +%m-%d-%H:%M).sh
 super + w
 	brave-nightly
 super + z
