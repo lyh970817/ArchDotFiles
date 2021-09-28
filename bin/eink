@@ -18,7 +18,6 @@ sed -i 's/NumixSolarizedLightCyan/Raleigh/' ~/.config/gtk-2.0/gtkrc-2.0
 sed -i 's/gtk-icon-theme-name=Adwaita/gtk-icon-theme-name=HighContrast/' ~/.config/gtk-3.0/settings.ini
 sed -i 's/gtk-icon-theme-name="Adwaita"/gtk-icon-theme-name="HighContrast"/' ~/.config/gtk-2.0/gtkrc-2.0
 
-xscreensaver -no-splash &
 setbg
 pgrep -x dunst >/dev/null && killall dunst && setsid dunst &
 xrdb ~/.Xresources
