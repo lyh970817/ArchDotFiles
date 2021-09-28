@@ -21,5 +21,6 @@ sed -i 's/gtk-icon-theme-name="Adwaita"/gtk-icon-theme-name="HighContrast"/' ~/.
 setbg
 pgrep -x dunst >/dev/null && killall dunst && setsid dunst &
 xrdb ~/.Xresources
-xscreensaver -no-splash &
 i3-msg restart &
+xscreensaver -no-splash &
+
