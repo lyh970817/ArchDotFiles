@@ -22,5 +22,4 @@ setbg
 pgrep -x dunst >/dev/null && killall dunst && setsid dunst &
 xrdb ~/.Xresources
 i3-msg restart &
-xscreensaver -no-splash &
 
