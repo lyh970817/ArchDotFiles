@@ -42,5 +42,4 @@ fi
 
 xset r rate 220 60
 xset s noblank
-exec xscreensaver --no-splash &
 exec i3
