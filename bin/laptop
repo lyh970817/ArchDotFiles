@@ -1,6 +1,6 @@
 #! /bin/bash
 RES=$(xrandr|head -3|tail -1|cut -f4 -d' ')
-xrandr --output DP1 --primary --mode $RES --pos 0x0 --rotate normal
+xrandr --output HDMI1 --primary --mode $RES --pos 0x0 --rotate normal
 xrandr  --output DP1 --scale 1
 ln -sf $ARSETUP/dotfiles/Xdefaults2 ~/.Xdefaults
 
