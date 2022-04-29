@@ -1,0 +1,9 @@
+#! /bin/bash
+
+cp $@ cp_$@
+zotbib.py $@ $@.bib
+sed -i 's/{[A-Z0-9]\+#/{/' $@.bib
+sed -i 's/@.[0-9A-Z]\+#/@/g' cp_$@
+pandoc cp_$@ -s -o $@.docx --citeproc --bibliography=$@.bib
+rm cp_$@ $@.bib
+
