@@ -1,6 +1,0 @@
-
-[Default Applications]
-application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
-x-scheme-handler/msteams=teams.desktop
-x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
-application/octet-stream=mpv.desktop
